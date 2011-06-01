@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:fadeScrollbars="true"
+    android:fadingEdge="none"
+>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/rlay"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:background="#ffffff"
+ 
+>
+
+
+	<TextView 
+		android:id="@+id/heading"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="2px"
+		android:textSize="20px"
+		android:textStyle="bold"
+		android:textColor="#000000"
+		android:background="#ffffff"
+		>
+	</TextView>
+	
+	<ImageView
+		android:id="@+id/img"
+		android:layout_height="100px"
+		android:layout_width="fill_parent"	
+		android:layout_below="@id/heading"
+		android:layout_marginTop="2px" 
+		android:layout_marginRight="2px"
+		android:layout_marginLeft="2px">
+	</ImageView>
+	
+
+	<LinearLayout
+	android:id="@+id/rl"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_below="@id/img"
+	>
+	
+	</LinearLayout>
+	
+	
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:orientation="vertical"
+	 android:layout_width="fill_parent"
+	 android:layout_height="fill_parent"
+	 
+	>
+	
+	</RelativeLayout>
+	
+	
+</RelativeLayout>
+
+</ScrollView>
